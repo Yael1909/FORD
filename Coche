@@ -1,0 +1,42 @@
+package com.mycompany.ford;
+public class coche {
+       public String vehiculo;
+       public String coche;
+       public int Total;
+   
+   public vehiculo(String vehiculo){
+       this.vehiculo = vehiculo;
+       this.coche = "";
+       this.Total = Total;
+   }
+   
+   public String getvehiculo(){
+       return vehiculo;
+   }
+   
+   public void setvehiculo(String vehiculo){
+       this.vehiculo = vehiculo;
+   }
+   
+   public String  coche(String coche){
+       return coche;
+   }
+   
+   public void setcamioneta(String coche){
+       this.coche = coche;
+   }
+   
+   public int total(int total){
+       this.Total = total;
+               
+   }
+   
+   public int Total(int Total){
+       return Total;
+   }
+   
+   @Override
+   public String toString(){
+       return"Vehiculo: "+vehiculo+"Coche: "+coche+"Total: "+Total;
+   }
+}

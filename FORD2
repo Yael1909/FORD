@@ -1,0 +1,130 @@
+package com.mycompany.ford;
+public class Ford {
+    public static void main(String[] args) {
+        String vehiculo;
+        String camioneta;
+        String coche;
+        String deportivo;
+        int Total;
+        
+     vehiculo v1 = new vehiculo("Camioneta");
+     camioneta c1 = new camioneta("B-Ma-Version 2018");
+     c1.setcompra(true);
+     Total t1 = new Total("$20,000");
+     t1.Total();
+     
+     vehiculo v2 = new vehiculo("Camioneta");
+     camioneta c2 = new camioneta("Bronco-Version 2020");
+     c2.setcompra(true);
+     Total t2 = new Total("$12,000");
+     t2.Total();
+     
+     vehiculo v3 = new vehiculo("Comioneta");
+     camioneta c3 = new camioneta("C Max-Version 2015");
+     c3.setcompra(true);
+     Total t3 = new Total("$350,000");
+     t3.Total();
+     
+     vehiculo v4 = new vehiculo("Camioneta");
+     camioneta c4 = new camioneta("EcoSport-Version 2017");
+     c4.setcompra(true);
+     Total t4 = new Total("$250,000");
+     t4.Total();
+     
+     vehiculo v5 = new vehiculo("Camioneta");
+     camioneta c5 = new camioneta("Edge-Version 2019");
+     c5.setcompra(true);
+     Total t5= new Total("$300,000");
+     t5.Total();
+     
+     vehiculo v6 = new vehiculo("Camioneta");
+     camioneta c6  = new camioneta("Explorer- Version 2020");
+     c6.setcompra(true);
+     Total t6= new Total("$400,000");
+     t6.Total();
+     
+     vehiculo v7 = new vehiculo("Camioneta");
+     camioneta c7 = new camioneta("Focus Active- Version 2018");
+     c7.setcompra(true);
+     t7.Total = new Total("$250,000");
+     t7.Total();
+     
+     vehiculo v8 = new vehiculo("Camioneta");
+     camioneta c8 = new camioneta("Kuga- Version 2020");
+     c8.setcompra(true);
+     t8.Total = new Total("$450,000");
+     t8.Total();
+     
+     vehiculo v9 = new vehiculo("Camioneta");
+     camioneta c9 = new camioneta("Puma- Version 2022");
+     c8.setcompra(true);
+     t9.Total = new Total("$500,000");
+     t9.Total();
+     
+     vehiculo v10 = new vehiculo("Caminoeta");
+     camioneta c10 = new camioneta("Ranger- Version 2019");
+     c10.setcompra(true);
+     t10.Total = new Total("$200,000");
+     t10.Total();
+     
+     vehiculo v11 = new vehiculo("Camioneta");
+     camioneta c11 = new camioneta("Tourneo- Version 2020");
+     c11.setcompra(true);
+     t11.Total("$420,000");
+     t11.Total();
+     
+     vehiculo v12 = new vehiculo("Camioneta");
+     camioneta c12 = new camioneta("Transit- Version 2020");
+     c12.setcompra(true);
+     t12.Total("$600,000");
+     t12.Total();
+     
+     vehiculo v13 = new vehiculo("Coche");
+     coche c13 = new coche("Focus - Version 2018");
+     c13.setcompra(true);
+     t13.Total("$130,000");
+     t13.Total();
+     
+     vehiculo v14 = new vehiculo("Coche");
+     coche c14 = new coche("Focus Wagon - Version 2018");
+     c14.setcompra(true);
+     t14.Total("$250,000");
+     t14.Total();
+     
+     vehiculo v15 = new vehiculo("Coche");
+     coche c15 = new coche("Kat - Version 2016");
+     c15. set compra(true);
+     t15.Total("$550,000");
+     t14.Total();
+     
+     vehiculo v16 = new vehiculo("Deportivo");
+     deportivo d16 = new deportivo("Evos - Version 2020");
+     d16.setcompra(true);
+     t16.Total("1,500,000");
+     t16.Total();
+     
+     vehiculo v17 = new vehiculo("Deportivo");
+     deportivo d17 = new deportivo("Focus st- version 2020");
+     d17.setcompra(true);
+     t17.Total("2,500,000");
+     t17.Total();
+     
+     vehiculo v18 = new vehiculo("Deportivo");
+     deportivo d18 = new deportivo("GT- Version 2017");
+     d18.setcompra(true);
+     t18.Total("$2,000,000");
+     t18.Total();
+     
+     vehiculo v19 = new vehiculo("Deportivo");
+     deportivo d19 = new deportivo("Mustang - Version 2020");
+     d19.setcompra(true);
+     t19.Total("$3,500,000");
+     t19.Total();
+     
+     vehiculo v20 = new vehiculo("Deportivo");
+     deportivo v20 = new deportivo("Puma st - Version 2020");
+     d20.setcompra(true);
+     t20.Total("$500,000,000");
+     t20.Total();
+    }
+}

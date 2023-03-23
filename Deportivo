@@ -1,0 +1,42 @@
+package com.mycompany.ford;
+public class deportivo {
+   private String vehiculo;
+   private String deportivo;
+   private int Total;
+   
+   public vehiculo(String vehiculo){
+       this.vehiculo = vehiculo;
+       this.deportivo = "";
+       this.Total = Total;
+   }
+   
+   public String getvehiculo(){
+       return vehiculo;
+   }
+   
+   public void setvehiculo(String vehiculo){
+       this.vehiculo = vehiculo;
+   }
+   
+   public String  deportivo(String deportivo){
+       return deportivo;
+   }
+   
+   public void setdeportivo(String deportivo){
+       this.deportivo = deportivo;
+   }
+   
+   public int total(int total){
+       this.Total = total;
+               
+   }
+   
+   public int Total(int Total){
+       return Total;
+   }
+   
+   @Override
+   public String toString(){
+       return"Vehiculo: "+vehiculo+"Deportivo: "+deportivo+"Total: "+Total;
+   }
+}
